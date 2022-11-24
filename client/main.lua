@@ -19,13 +19,129 @@ CreateThread(function()
 
 	ActivateInteriorEntitySets(12290, "Valentine bank", {
 		"val_bank_front_windows",
-		"val_bank_int_curtainsopen"
+		"val_bank_int_curtainsopen",
+		"val_bank_settee",
+		"val_bank_vault_dressing",
+		"val_bank_int_vaults_dynamite",
+		"val_bank_int_vaults_safe_crack",
+	})
+
+	ActivateInteriorEntitySets(4610, "Han House", {
+		"han_int_tables_upright",
+		"HAN_WIN_LOCK",
+	})
+
+	ActivateInteriorEntitySets(12034, "Mil Cave Lights 04", {
+		"mil_cave_lights_04",
+	})
+
+	ActivateInteriorEntitySets(12034, "Mil Cave Lights 03", {
+		"mil_cave_lights_03",
+	})
+
+	ActivateInteriorEntitySets(12034, "Mil Cave Lights 02", {
+		"mil_cave_lights_02",
+	})
+
+	ActivateInteriorEntitySets(12034, "Mil Cave Lights 01", {
+		"mil_cave_lights_01",
+	})
+
+	ActivateInteriorEntitySets(77825, "Manzanita Moonshine interior", {
+		"mp006_mshine_band2",
+		"mp006_mshine_bar_benchAndFrame",
+		"mp006_mshine_dressing_1",
+		"mp006_mshine_hidden_door_open",
+		"mp006_mshine_location1",
+		"mp006_mshine_shelfwall1",
+		"mp006_mshine_shelfwall2",
+		"mp006_mshine_Still_02",
+		"mp006_mshine_still_hatch",
+		"mp006_mshine_theme_hunter",
+	})
+
+	ActivateInteriorEntitySets(78593, "Hanover Moonshine interior", {
+		"mp006_mshine_band2",
+		"mp006_mshine_bar_benchAndFrame",
+		"mp006_mshine_dressing_1",
+		"mp006_mshine_hidden_door_open",
+		"mp006_mshine_location1",
+		"mp006_mshine_shelfwall1",
+		"mp006_mshine_shelfwall2",
+		"mp006_mshine_Still_02",
+		"mp006_mshine_still_hatch",
+		"mp006_mshine_theme_floral",
+	})
+
+	ActivateInteriorEntitySets(78337, "New Austin Moonshine interior", {
+		"mp006_mshine_band2",
+		"mp006_mshine_bar_benchAndFrame",
+		"mp006_mshine_dressing_1",
+		"mp006_mshine_hidden_door_open",
+		"mp006_mshine_location1",
+		"mp006_mshine_shelfwall1",
+		"mp006_mshine_shelfwall2",
+		"mp006_mshine_Still_02",
+		"mp006_mshine_still_hatch",
+		"mp006_mshine_theme_refined",
+	})
+
+	ActivateInteriorEntitySets(77569, "Cattail Pond Moonshine interior", {
+		"mp006_mshine_band2",
+		"mp006_mshine_bar_benchAndFrame",
+		"mp006_mshine_dressing_1",
+		"mp006_mshine_hidden_door_open",
+		"mp006_mshine_location1",
+		"mp006_mshine_shelfwall1",
+		"mp006_mshine_shelfwall2",
+		"mp006_mshine_Still_02",
+		"mp006_mshine_still_hatch",
+		"mp006_mshine_theme_goth",
+	})
+
+	ActivateInteriorEntitySets(77313, "Lemoyne Moonshine interior", {
+		"mp006_mshine_band2",
+		"mp006_mshine_bar_benchAndFrame",
+		"mp006_mshine_dressing_1",
+		"mp006_mshine_hidden_door_open",
+		"mp006_mshine_location1",
+		"mp006_mshine_shelfwall1",
+		"mp006_mshine_shelfwall2",
+		"mp006_mshine_Still_02",
+		"mp006_mshine_still_hatch",
+		"mp006_mshine_theme_hunter",
+	})
+
+	ActivateInteriorEntitySets(2, "Che Cabin", {
+		"che_maincabin_occupied",
+		"che_cabin_int_roof_intact"
+	})
+
+	ActivateInteriorEntitySets(1026, "Val Doctor", {
+		"_s_inv_CocaineGum01x_dressing",
+		"_s_inv_medicine01x_dressing",
+		"_s_inv_tabacco01x_dressing",
+		"_s_inv_tonic01x_dressing"
+	})
+
+	ActivateInteriorEntitySets(1282, "Agu Boiler", {
+		"agu_shutters_closed",
+	})
+
+	ActivateInteriorEntitySets(770, "Lonnie Shack", {
+		"inn_lonnie_firelit",
+	})
+
+	ActivateInteriorEntitySets(2306, "Vet House", {
+		"vet_fishTrophy",
+		"InteriorGroup_WolfHead"
 	})
 
 	ActivateInteriorEntitySets(21250, "Valentine saloon", {
 		"front_windows",
 		"val_saloon_br03_bed",
-		"6_chair_poker_set"
+		"6_chair_poker_set",
+		"val_saloon_johnclothes01"
 	})
 
 	ActivateInteriorEntitySets(7170, "Valentine jail", {
@@ -123,7 +239,7 @@ CreateThread(function()
 	})
 
 	ActivateInteriorEntitySets(51202, "Riverboat", {
-		"korrigan_props_poker"
+		"korrigan_props_default"
 	})
 
 	ActivateInteriorEntitySets(50690, "Beechers", {
@@ -138,12 +254,15 @@ CreateThread(function()
 
 	ActivateInteriorEntitySets(49154, "Bronte", {
 		"bronte_shutters_open",
-		"bronte_glass_unbreakable"
+		"bronte_glass_breakable",
+		"bronte_mp_dressing"
 	})
     
 	ActivateInteriorEntitySets(72706, "Braithwaite mansion", {
-		"bra_mansion_WindowsStatic",
-		"bra_int_bedroom_clean"
+		"bra_mansion_WindowsBreakable",
+		"bra_int_bedroom_clean",
+		"bra_mansion_dining_csprops",
+		"bra_mansion_dining_groups"
 	})
 
 	ActivateInteriorEntitySets(74241, "Character creator", {
@@ -403,7 +522,9 @@ CreateThread(function()
 	})
 
 	ActivateInteriorEntitySets(42754, "Saint Denis bank", {
-		"new_com_bank_before"
+		"new_com_bank_before",
+		"new_com_bank_int_des",
+		"new_com_bank_vaults_with_rayfire"
 	})
 
 	ActivateInteriorEntitySets(514, "Tumbleweed general store", {
@@ -523,7 +644,8 @@ CreateThread(function()
 
 	ActivateInteriorEntitySets(26626, "Galarie", {
 		"new_art_photos_pre_RC_Mason",
-		"new_forMyArt_paintings"
+		"new_forMyArt_paintings",
+		"new_art_exhibit_RC_Art3"
 	})
 
 	ActivateInteriorEntitySets(72450, "Willards Rest", {
@@ -606,6 +728,154 @@ CreateThread(function()
 		"che_maincabin_occupied"
 	})
 
+	ActivateInteriorEntitySets(9986, "Dow house", {
+		"IntGroup_Downes_before_move",
+	})
+
+	ActivateInteriorEntitySets(73730, "Shack", {
+		"SK2_Painting_high_moral",
+		"SK2_Painting_set_04",
+		"stranger_cryptic_dies",
+	})
+
+	ActivateInteriorEntitySets(61186, "Annesburg coaltipple", {
+		"int_trainrob01_cover",
+	})
+
+	ActivateInteriorEntitySets(60674, "Riverboat", {
+		"korrigan_props_default",
+	})
+
+	ActivateInteriorEntitySets(59906, "Val Theater", {
+		"val_magiclantern_intgroup_open",
+	})
+
+	ActivateInteriorEntitySets(59650, "Adl Barn", {
+		"adl_stall_blocker",
+	})
+
+	ActivateInteriorEntitySets(59138, "Bea Cave", {
+		"BEA_CAVE_INT_PLATFORM",
+	})
+
+	ActivateInteriorEntitySets(58882, "Van Horn Trading Post", {
+		"_p_cigarettebox01x_dressing",
+		"_p_cigarettebox01x_group",
+		"_p_package01x_dressing",
+		"_p_package01x_group",
+		"_s_coffeeTin01x_dressing",
+		"_s_coffeeTin01x_group",
+		"_s_inv_pistolAmmo01x_group",
+		"_s_inv_revolverAmmo01x_group",
+		"_s_inv_rifleAmmo01x_group",
+		"_s_inv_shotgunAmmo01x_group",
+		"_s_inv_varmint_rifleammo01x_group",
+		"_s_inv_whiskey01x_group"
+	})
+
+	ActivateInteriorEntitySets(57858, "Col School", {
+		"col_school_int_before",
+		"col_school_int_fireplace",
+	})
+
+	ActivateInteriorEntitySets(23298, "Annesburg Depot", {
+		"arm_sheriff_int_normal_mp",
+	})
+
+	ActivateInteriorEntitySets(36098, "Col Barn", {
+		"col_barn_lights_on",
+	})
+
+	ActivateInteriorEntitySets(37122, "Valentine Hotel", {
+		"val_hotel_int_rentSign",
+		"MUD3_val_hotel_room1b_prayercurtain",
+		"mud3_val_hotel_room_curtain01",
+		"LevDes_Val_MUD3"
+	})
+
+	ActivateInteriorEntitySets(29186, "Strawberry Jail", {
+		"str_jail_unbrokenwall",
+	})
+
+	ActivateInteriorEntitySets(47874, "Oil Factory", {
+		"cor_factb_int_rail_blockers",
+	})
+
+	ActivateInteriorEntitySets(49410, "Saint Denis Photo", {
+		"new_photo_tablechair",
+	})
+
+	ActivateInteriorEntitySets(50178, "Annesburg Coalbreaker", {
+		"Normal_Cage_Door",
+		"p_inventorcage_door01x"
+	})
+
+	ActivateInteriorEntitySets(51714, "Dov Lab", {
+		"new_photo_tablechair",
+	})
+
+	ActivateInteriorEntitySets(52994, "Che Shack", {
+		"che_shack_outlaw",
+	})
+
+	ActivateInteriorEntitySets(38402, "Pawn Shop", {
+		"new_shadyshop_cheatcode01",
+	})
+
+	ActivateInteriorEntitySets(37378, "Doyles Tavern", {
+		"ForMyArt_nobarprops",
+	})
+
+	ActivateInteriorEntitySets(23554, "Shack", {
+		"LT_murder_before",
+	})
+
+	ActivateInteriorEntitySets(56322, "Lake Dockhouse", {
+		"lak_dockhouse_hammock_CS",
+		"lak_dockhouse_undamaged",
+	})
+
+	ActivateInteriorEntitySets(56322, "Six Cabin", {
+		"six_fireplace_ON",
+		"six_lights_on",
+		"six_table_STATIC"
+	})
+
+	ActivateInteriorEntitySets(54274, "Rhodes Saloon", {
+		"brt1_saloon_before",
+		"rho_saloon_int_rentSign",
+		"rho_sal_tables01"
+	})
+
+	ActivateInteriorEntitySets(54274, "Saint Denis Saloon", {
+		"new_saloon01_int_rent",
+	})
+
+	ActivateInteriorEntitySets(53250, "Saint Denis Saloon", {
+		"wat_int_nofire",
+		"wat_cabin_hoarded",
+		"wat_int_moneybox"
+	})
+
+	ActivateInteriorEntitySets(12546, "Blackwater Photo", {
+		"bla_photo_int_chairs",
+	})
+
+	ActivateInteriorEntitySets(20994, "New Theater", {
+		"new_theater_magician",
+		"new_theatre_int_Magician"
+	})
+
+	ActivateInteriorEntitySets(22018, "Cat House", {
+		"cat_house_lights_ON",
+		"cat_house_propset",
+		"cat_house_whiskey"
+	})
+
+	ActivateInteriorEntitySets(23042, "Armadillo Sheriff", {
+		"arm_sheriff_int_normal_mp",
+	})
+
         isLoaded = true
     end
 end)
@@ -619,8 +889,34 @@ RequestImap(-1699673416) -- CharacterCreator, pipes and background buildings
 RequestImap(1679934574) -- CharacterCreator, background trees
 -- -559.93 -3776.59 238.6 266.08
 
---------------------------------                                   ############# -- Valentine Investigate -- ###############                                       ----------------------
+--Moonshine Shells
+RequestImap(GetHashKey("MP006_A3SUPP_MOONSHINE01"))
+RequestImap(GetHashKey("MP006_A3SUPP_MOONSHINE01_PLUG"))
+RequestImap(GetHashKey("MP006_A2SUPP_MOONSHINE02"))
+RequestImap(GetHashKey("MP006_A2SUPP_MOONSHINE02_PLUG"))
+RequestImap(GetHashKey("MP006_A4SUPP_MOONSHINE03"))
+RequestImap(GetHashKey("MP006_A4SUPP_MOONSHINE03_PLUG"))
+RequestImap(GetHashKey("MP006_A1SUPP_MOONSHINE04"))
+RequestImap(GetHashKey("MP006_A1SUPP_MOONSHINE04_PLUG"))
+RequestImap(GetHashKey("MP006_A4SUPP_MOONSHINE05"))
+RequestImap(GetHashKey("MP006_A4SUPP_MOONSHINE05_PLUG"))
 
+-- Bounty Boards
+RequestImap(952801839) -- Valentine
+RequestImap(227456234) --Annesburg
+RequestImap(59120723) -- Armadillo
+RequestImap(-1975145165) -- Benedict
+RequestImap(-1293161516) -- Blackwater
+RequestImap(-1913584952)--Emerald Station
+RequestImap(1817836578) -- Rhodes
+RequestImap(1418611013) -- Riggs
+RequestImap(-226455701) -- StDenis
+RequestImap(-1019371157) -- Strawberry
+RequestImap(1296658155) -- Tumbleweed
+RequestImap(-1487154162) --Vanhorn
+RequestImap(-605257184) -- Wallace
+
+-- Valentine Investigate
 RequestImap(-661560211) -- Barrels Everywhere?
 RequestImap(-1933617196) -- Structure in front of gunsmith?
 -- RequestImap(1202020135)  -- Blank Banners across mainstreet
@@ -666,11 +962,11 @@ RequestImap(-391567710) -- Cellar doors open -608.42, 520.42, 96.54
 RequestImap(1519091923) -- pillars outside hotel
 --RequestImap(1722569012)
 
---------------------------------                                   ############# -- Valentine Multiplayer (Online) Components -- ###############                                       ----------------------
+-- Valentine Multiplayer (Online) Components
 -- RequestImap(731209239)  -- Fast Travel Marker Valentine Train Station
 -- RequestImap(824748066)  -- Event Marker Western side of town along path ( -229.93, 946.05, 138.33 )
 
---------------------------------                                   ############# -- Valentine Necessities -- ###############                                       ----------------------
+-- Valentine Necessities
 RemoveImap(774477221) -- Valentine Sheriff's Office Crumbled Wall parts...
 RequestImap(1097534152) -- Valentine Sheriffs Office Outer wall
 -- RequestImap(2095116685) -- supplies/boxes in mainstreet front of General Store, Saloon, Green building
@@ -1114,24 +1410,24 @@ RequestImap(-70021332)  -- Adds Working tools and supplies to upper balcony
 -- RequestImap(1891284833) -- overgrown grass in crops
 -- RequestImap(-744260705)
 -- RequestImap(1424293412)
-RequestImap(366542865)
-RequestImap(241205019)
-RequestImap(1060557512)
+-- RequestImap(366542865)
+-- RequestImap(241205019)
+-- RequestImap(1060557512)
 -- RequestImap(-362403544)
-RequestImap(-592147003)
-RequestImap(352816221)
-RequestImap(1128622296)
-RequestImap(979982112)
-RequestImap(1756640181)
-RequestImap(1557076971)
-RequestImap(1913538153)
-RequestImap(1650694835)
-RequestImap(1965736001)
-RequestImap(1266707689)
-RequestImap(-1603329230)
-RequestImap(2056145270)
-RequestImap(748826019)
-RequestImap(-1892843345)
+-- RequestImap(-592147003)
+-- RequestImap(352816221)
+-- RequestImap(1128622296) -- Corn stalks
+-- RequestImap(979982112) -- Cotton field
+-- RequestImap(1756640181)
+-- RequestImap(1557076971) -- Cotton field
+-- RequestImap(1913538153) -- Wheat Field
+-- RequestImap(1650694835) -- Wheat Field
+-- RequestImap(1965736001)
+-- RequestImap(1266707689)
+-- RequestImap(-1603329230)
+-- RequestImap(2056145270)
+-- RequestImap(748826019)
+-- RequestImap(-1892843345)
 ------------------------------------- #### END OF BRAITHWAITE MANSION ####
 
 ------------------------------------- Grey Estates
@@ -1174,7 +1470,7 @@ RequestImap(-562289114) -- something in cemetary
 ------------------------------------- First Camp - Winter Area -1346 2407 311
 -- RequestImap(867231253)  -- Ground Spring Melt
 -- RequestImap(1248111234) -- Ground Early Spring Melt 
- RequestImap(474287981) -- Ground Standard Winter 
+RequestImap(474287981) -- Ground Standard Winter 
 -- RequestImap(-1331012521) -- Ground After Snowfall Winter 
 -- RequestImap(-2119625926) -- Barrels and Crates
 -- RequestImap(1113693078) -- Snow on Two Crates
@@ -1232,7 +1528,7 @@ RequestImap(-1403908542)
 ------------------------------------- #### END OF STRAWBERRY ####
 
 ----------------------- Saint Denis Doctor office
--- RequestImap(-473077489) -- Doors (fixes hole) no interior
+RemoveImap(-473077489) -- Doors (fixes hole) no interior
 RequestImap(619024057) -- full interior with doors
 ------------------------------------- #### END OF SAINT DENIS DOCTOR OFFICE ####
 
@@ -1289,17 +1585,19 @@ RequestImap(-929277449)
 RequestImap(-801609437)
 ------------------------------------- #### END OF SAINT DENIS DOCKS ####
 
------------------------ Saint Denis THEATRE
+-- Saint Denis THEATRE
 RequestImap(-278745837) -- saint denis big theatre
 RequestImap(-41173958) -- saint denis big theatre
 RequestImap(1160690623) -- saint denis big theatre
 RequestImap(-660075384) -- saint denis big theatre
 RequestImap(149553684) -- saint denis big theatre
---RequestImap(1547403545) -- saint denis big theatre one of the signs outside
---RequestImap(808576710) -- saint denis big theatre one of the signs outside
---RequestImap(-775951892) -- saint denis big theatre one of the signs outside
---RequestImap(137316925) -- saint denis big theatre one of the signs outside
---RequestImap(1431947993) -- saint denis big theatre one of the signs outside
+RemoveImap(1547403545) -- saint denis big theatre one of the signs outside
+RemoveImap(808576710) -- saint denis big theatre one of the signs outside
+RemoveImap(-775951892) -- saint denis big theatre one of the signs outside
+RemoveImap(137316925) -- saint denis big theatre one of the signs outside
+RemoveImap(1431947993) -- saint denis big theatre one of the signs outside
+RemoveImap(-470270956)
+RemoveImap(-226773579)
 ------------------------------------- #### END OF SAINT DENIS THEATRE ####
 
 ----------------------- Saint Denis
@@ -1386,26 +1684,26 @@ RequestImap(1344772301)
 RequestImap(-382865315)
 RequestImap(181690478)
 RequestImap(774601424)
-RequestImap(431365499)
-RequestImap(-2090209059)
+-- RequestImap(431365499)
+-- RequestImap(-2090209059)
 RequestImap(-706937940)
 RequestImap(-71885140)
 RequestImap(-1792872817)
-RequestImap(-1402083909)
+-- RequestImap(-1402083909)
 -- RequestImap(1929454697) -- beechers field side rows of some medium crop
 -- RequestImap(1649902358) -- beechers field side rows of some small crop
 -- RequestImap(1864768904) -- beechers field crops in middle
 -- RequestImap(938290967)  -- beechers field crops in middle
 -- RequestImap(1169279648) -- beechers field crops in middle
 -- RequestImap(-284612948) -- beechers field tilled field
-RequestImap(-1765152778) -- beechers field logs laying in 
-RequestImap(-2072231077) -- beechers field plants over area
+-- RequestImap(-1765152778) -- beechers field logs laying in 
+-- RequestImap(-2072231077) -- beechers field plants over area
 RequestImap(-1253110600) -- beechers field hole in ground fix
-RequestImap(1965249616)
-RequestImap(276582710)
-RequestImap(1977031606)
+-- RequestImap(1965249616)
+-- RequestImap(276582710)
+-- RequestImap(1977031606)
 RequestImap(-2021605623)
-RequestImap(1191890045)
+-- RequestImap(1191890045)
 RequestImap(19217583)
 RequestImap(-284612948)
 ------------------------------------- #### END OF BEECHERS FIELD ####
